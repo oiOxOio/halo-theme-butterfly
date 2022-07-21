@@ -12,11 +12,18 @@
 11. 修改了h1-h6的默认样式，新增了表格样式
 12. 新增友链展示方式，优化友链样式
 13. 实现所有页面评论功能
+---
+
+以上内容来自[@boboblink](https://github.com/boboblink/halo-theme-butterfly)
+
 14. 优化资源访问
 15. 首页左上角超链接优化 中间文字加阴影 防止背景过白看不见
 
-[我的个人博客](https://blog.tianray.cc/)
+[我的个人博客](https://blog.5hp.cc/)
 
+有部分个性化修改可能未提及到 谨慎使用
+ 
+---
 
 <p align="center">Butterfly 主题 Halo 移植版</p>
 
