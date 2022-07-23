@@ -229,7 +229,19 @@ index:
       label: 顶部背景图高度
       type: text
       default: "100vh"
-      placeholder: "顶部背景图高度"
+      placeholder: "顶部背景图高度(默认100vh)"
+    enable_top_index_background_fixed:
+      name: enable_top_index_background_fixed
+      label: 顶部背景图是否固定
+      type: switch
+      data-type: bool
+      default: true
+      description: "顶部背景图是否固定(产生视差效果）"
+      options:
+        - value: true
+          label: 是
+        - value: false
+          label: 否
     enable_home_aside:
       name: enable_home_aside
       label: 是否展示侧边栏
@@ -297,6 +309,24 @@ archives:
       type: attachment
       default: "https://gitee.com/dhjdd/Timo/raw/master/1642841299688.png"
       placeholder: "顶部背景图"
+    top_archives_height:
+      name: top_archives_height
+      label: 顶部背景图高度
+      type: text
+      default: "60vh"
+      placeholder: "顶部背景图高度(默认60vh)"
+    enable_top_archives_background_fixed:
+      name: enable_top_archives_background_fixed
+      label: 顶部背景图是否固定
+      type: switch
+      data-type: bool
+      default: true
+      description: "顶部背景图是否固定(产生视差效果）"
+      options:
+        - value: true
+          label: 是
+        - value: false
+          label: 否
     enable_archives_aside:
       name: enable_archives_aside
       label: 是否展示侧边栏
@@ -337,6 +367,24 @@ categories:
       type: attachment
       default: "https://gitee.com/dhjdd/Timo/raw/master/1642841299688.png"
       placeholder: "顶部背景图"
+    top_categories_height:
+      name: top_categories_height
+      label: 顶部背景图高度
+      type: text
+      default: "60vh"
+      placeholder: "顶部背景图高度(默认60vh)"
+    enable_top_categories_background_fixed:
+      name: enable_top_categories_background_fixed
+      label: 顶部背景图是否固定
+      type: switch
+      data-type: bool
+      default: true
+      description: "顶部背景图是否固定(产生视差效果）"
+      options:
+        - value: true
+          label: 是
+        - value: false
+          label: 否
     enable_categories_aside:
       name: enable_categories_aside
       label: 是否展示侧边栏
@@ -377,6 +425,24 @@ tags:
       type: attachment
       default: "https://gitee.com/dhjdd/Timo/raw/master/1642841299688.png"
       placeholder: "顶部背景图（标签）"
+    top_tags_height:
+      name: top_tags_height
+      label: 顶部背景图高度
+      type: text
+      default: "60vh"
+      placeholder: "顶部背景图高度(默认60vh)"
+    enable_top_tags_background_fixed:
+      name: enable_top_tags_background_fixed
+      label: 顶部背景图是否固定
+      type: switch
+      data-type: bool
+      default: true
+      description: "顶部背景图是否固定(产生视差效果）"
+      options:
+        - value: true
+          label: 是
+        - value: false
+          label: 否
     enable_tags_aside:
       name: enable_tags_aside
       label: 是否展示侧边栏
@@ -429,6 +495,24 @@ links:
       type: attachment
       default: "https://gitee.com/dhjdd/Timo/raw/master/1642841299688.png"
       placeholder: "顶部背景图（友链）"
+    top_links_height:
+      name: top_links_height
+      label: 顶部背景图高度
+      type: text
+      default: "60vh"
+      placeholder: "顶部背景图高度(默认60vh)"
+    enable_top_links_background_fixed:
+      name: enable_top_links_background_fixed
+      label: 顶部背景图是否固定
+      type: switch
+      data-type: bool
+      default: true
+      description: "顶部背景图是否固定(产生视差效果）"
+      options:
+        - value: true
+          label: 是
+        - value: false
+          label: 否
     enable_links_aside:
       name: enable_links_aside
       label: 是否展示侧边栏
@@ -469,6 +553,24 @@ journals:
       type: attachment
       default: "https://gitee.com/dhjdd/Timo/raw/master/1642841299688.png"
       placeholder: "顶部背景图"
+    top_journals_height:
+      name: top_journals_height
+      label: 顶部背景图高度
+      type: text
+      default: "60vh"
+      placeholder: "顶部背景图高度(默认60vh)"
+    enable_top_journals_background_fixed:
+      name: enable_top_journals_background_fixed
+      label: 顶部背景图是否固定
+      type: switch
+      data-type: bool
+      default: true
+      description: "顶部背景图是否固定(产生视差效果）"
+      options:
+        - value: true
+          label: 是
+        - value: false
+          label: 否
     enable_journals_aside:
       name: enable_journals_aside
       label: 是否展示侧边栏
@@ -606,6 +708,24 @@ sheet:
       type: attachment
       default: "https://gitee.com/dhjdd/Timo/raw/master/1642841299688.png"
       placeholder: "顶部背景图"
+    top_sheet_height:
+      name: top_sheet_height
+      label: 顶部背景图高度
+      type: text
+      default: "60vh"
+      placeholder: "顶部背景图高度(默认60vh)"
+    enable_top_sheet_background_fixed:
+      name: enable_top_sheet_background_fixed
+      label: 顶部背景图是否固定
+      type: switch
+      data-type: bool
+      default: true
+      description: "顶部背景图是否固定(产生视差效果）"
+      options:
+        - value: true
+          label: 是
+        - value: false
+          label: 否
     sheet_comment:
       name: sheet_comment
       label: 评论功能
@@ -798,6 +918,24 @@ post:
     #          label: 是
     #        - value: false
     #          label: 否
+    top_post_height:
+      name: top_post_height
+      label: 顶部背景图高度
+      type: text
+      default: "60vh"
+      placeholder: "顶部背景图高度(默认60vh)"
+    enable_top_post_background_fixed:
+      name: enable_top_post_background_fixed
+      label: 顶部背景图是否固定
+      type: switch
+      data-type: bool
+      default: true
+      description: "顶部背景图是否固定(产生视差效果）"
+      options:
+        - value: true
+          label: 是
+        - value: false
+          label: 否
     enable_donate:
       name: enable_donate
       label: 开启打赏
