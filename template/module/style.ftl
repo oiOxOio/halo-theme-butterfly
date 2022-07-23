@@ -31,7 +31,8 @@
         <#if !is_search && settings.enable_top_background_img  &&  settings['enable_top_${type}_background_img'] >
 
         html #Butterfly header {
-            background-image: url(${top_background_img!})
+            height: ${settings["top_${type}_height"]};
+            background: url(${top_background_img!}) <#if settings['enable_top_${type}_background_fixed']>fixed</#if>;
         }
 
         <#else>
