@@ -32,6 +32,15 @@
         <script src="${BASE_RES_URL!}/source/lib/halo-comment/halo-comment.min.js"></script>
     </#if>
 
+<#-- 开发   -->
+    <#if  mode == 'development'>
+        <script src="${BASE_RES_URL!}/source/js/by.utils.js"></script>
+        <script src="${BASE_RES_URL!}/source/js/by.common.js"></script>
+        <#if  type !='sheet'>
+            <script src="${BASE_RES_URL!}/source/js/by.${type}.js"></script>
+        </#if>
+    </#if>
+
 <#-- 线上  -->
     <#if  mode == 'production'>
         <script src="${BASE_RES_URL!}/source/js/min/by.utils.min.js"></script>

@@ -665,20 +665,27 @@ comment:
       default: "你将收到回复通知"
       placeholder: 请输入
       description: "填写邮箱时的提示文字"
-    comment_avatar_error:
-      name: comment_avatar_error
-      label: 缺省头像
+    comment_url_poptext:
+      name: comment_url_poptext
+      label: "提示文案（输入url地址时）"
       type: text
+      default: "禁止小广告😀"
       placeholder: 请输入
-      default: "/themes/butterfly/source/img/error_avatar.jpg"
-      description: "当评论头像加载不出来时展示的默认头像"
-    comment_avatar_loading:
-      name: comment_avatar_loading
-      label: 头像加载图
-      type: text
-      placeholder: 请输入
-      default: "/themes/butterfly/source/img/loading.gif"
-      description: "头像加载时展示的loading图片"
+      description: "填写网站地址时的提示文字"
+#    comment_avatar_error:
+#      name: comment_avatar_error
+#      label: 缺省头像
+#      type: text
+#      placeholder: 请输入
+#      default: "/themes/butterfly/source/img/error_avatar.jpg"
+#      description: "当评论头像加载不出来时展示的默认头像"
+#    comment_avatar_loading:
+#      name: comment_avatar_loading
+#      label: 头像加载图
+#      type: text
+#      placeholder: 请输入
+#      default: "/themes/butterfly/source/img/loading.gif"
+#      description: "头像加载时展示的loading图片"
     comment_empty_text:
       name: comment_empty_text
       label: 无评论时的文案
@@ -686,6 +693,11 @@ comment:
       default: "暂无评论"
       placeholder: 请输入
       description: "没有评论数据时显示的文字"
+    comment_custom_style:
+      name: comment_custom_style
+      label: 自定义评论组件CSS样式
+      type: textarea
+      description: '确保样式以 .halo-comment 开头，防止污染其他 css。如果属性不生效，则加上 !important 提升优先度'
 
 sheet:
   label: 自定义
